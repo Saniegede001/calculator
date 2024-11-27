@@ -1,4 +1,5 @@
 body {
+    font-family: Arial, sans-serif;
     height: 100vh;
     overflow: hidden;
 }
@@ -45,7 +46,7 @@ h2 {
     opacity: 50%;
 }
 
-#special {
+.special {
     background-color: #28ee0e;
     color: #fcfcfc;
     font-weight: bolder;
