@@ -13,10 +13,16 @@
     <div class="container">
         <div id="display"></div>
         <div class="buttons">
-            <div class="button special">C</div>
+            <div class="button special">Clear</div>
             <div class="button special">/</div>
             <div class="button special">*</div>
-            <div class="button special">&larr;</div>
+            <div class="button special" onclick="
+                if (screen.innerText=='Error') {
+                    screen.innerText=''
+                }else if (screen.innerText=='undefined') {
+                    screen.innerText=''
+                }
+            ">Delete</div>
             <div class="button">9</div>
             <div class="button">8</div>
             <div class="button">7</div>
